@@ -1,2 +1,2 @@
 # AdventOfCode2024
-This Repository contains my Solutions for the Advent of Code 2024.
+This repository contains my solutions for the Advent of Code 2024
