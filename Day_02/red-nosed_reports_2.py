@@ -1,16 +1,18 @@
 def red_nosed_reports_2():
-    input_data = open("input.txt", "r")
+    input_data = open("test_input.txt", "r")
     data = input_data.readlines()
     safe = 0
 
-    for row in data:
+    for x, row in enumerate(data):
         numbers = list(map(int, row.split()))
         if is_safe(numbers):
             safe += 1
         elif check_with_one_mistake(numbers):
             safe += 1
+        else:
+            print(x)
 
-    print(safe)
+    # print(safe)
 
 def is_safe(numbers):
     counting_up = None

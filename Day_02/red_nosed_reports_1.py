@@ -1,5 +1,5 @@
 def red_nosed_reports_1():
-    input_data = open("input.txt", "r")
+    input_data = open("test_input.txt", "r")
     data = input_data.readlines()
     safe = 0
 
